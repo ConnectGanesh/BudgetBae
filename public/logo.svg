@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hand-gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="bank-gradient" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#e0f7fa" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <!-- Hand (palm) -->
+  <path d="M12 44 Q20 54 32 54 Q44 54 52 44 Q54 42 52 40 Q44 48 32 48 Q20 48 12 40 Q10 42 12 44Z" fill="url(#hand-gradient)" stroke="#10b981" stroke-width="2"/>
+  <!-- Bank (vault) -->
+  <rect x="22" y="28" width="20" height="14" rx="3" fill="url(#bank-gradient)" stroke="#14b8a6" stroke-width="2"/>
+  <rect x="28" y="34" width="8" height="4" rx="1" fill="#14b8a6" opacity="0.7"/>
+  <!-- Bank roof -->
+  <polygon points="32,20 20,28 44,28" fill="#10b981" opacity="0.8"/>
+  <!-- Wealth accent: ring on hand -->
+  <circle cx="18" cy="50" r="2" fill="#ffd700" stroke="#bfa100" stroke-width="0.5"/>
+</svg>
